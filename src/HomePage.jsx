@@ -1,9 +1,12 @@
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
 
 
 const HomePage = () => {
   return (
     <div>
-      <h1 className="text-center text-5xl">Hello This is homepage</h1>
+      <Navbar />
+      <Footer />
     </div>
   );
 };
