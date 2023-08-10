@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../../Shared/Container/Container";
 import Theme from "../Theme/Theme";
 
@@ -34,7 +35,7 @@ const Navbar = () => {
                 <a>Questions</a>
               </li>
               <li>
-                <a>About</a>
+              <Link to='/questions'>Questions</Link>
               </li>
             </ul>
           </div>

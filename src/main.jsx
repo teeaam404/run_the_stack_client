@@ -6,11 +6,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from './HomePage';
+import QnaSection from './Components/QnaSection/QnaSection';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />
+    element: <HomePage />,
+    children: [
+      {
+        path: '/questions',
+        element: <QnaSection />
+      }
+    ]
   },
 ]);
 
