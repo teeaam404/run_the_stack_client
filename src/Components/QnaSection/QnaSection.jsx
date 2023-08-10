@@ -10,6 +10,8 @@ const QnaSection = () => {
   return (
     <Container>
       <div className="my-10">
+        {/* Todo */}
+        <h2 className="text-5xl font-bold text-red-300 text-center py-5 my-3">Ask your question?</h2>
         <form>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="space-y-6">

@@ -2,7 +2,6 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-
     <div id="animation">
       <footer className="footer p-10 text-white">
         <div>
