@@ -35,7 +35,7 @@ const Navbar = () => {
                 <a>Questions</a>
               </li>
               <li>
-              <Link to='/questions'>Questions</Link>
+              <Link to='/askqna'>Ask Questions</Link>
               </li>
             </ul>
           </div>
