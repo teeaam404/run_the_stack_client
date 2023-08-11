@@ -10,13 +10,11 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-<<<<<<< HEAD
-      <Faq />
-=======
       <TopBanner></TopBanner>
       <CoreValue></CoreValue>
+      <Faq />
       <QnaSection />
->>>>>>> 2ce9c6843a4fe41f0e4c1bd71d881144d5f16afa
+
       <Footer />
     </div>
   );
