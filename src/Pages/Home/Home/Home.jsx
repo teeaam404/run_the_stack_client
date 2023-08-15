@@ -1,12 +1,10 @@
-import React from 'react';
-import TopBanner from '../Banner/TopBanner';
-import Faq from '../../../Components/FAQ/Faq';
+
+import Banner from '../../../Components/Banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            <TopBanner></TopBanner>
-            <Faq />
+            <Banner></Banner>
         </div>
     );
 };
