@@ -15,7 +15,7 @@ const Banner = () => {
             <div className="bg-red-100 mt-14 lg:px-16 rounded-lg py-4">
               <BiSearchAlt className="mx-auto text-orange-400" size={50}/>
               <h2 className="text-lg my-3">Find the best answer to your technical<br />question, help others answer theirs</h2>
-              <button className="mt-4 p-3 px-8 rounded bg-orange-500 mb-2 text-white">join the community</button>
+              <button className="btn mt-4 p-3 px-8 rounded bg-orange-500 hover:bg-orange-600 mb-2 text-white">join the community</button>
               <p>or <a className="underline text-sm" href="">search content</a></p>
             </div>
             <div className="bg-green-100 mt-14 lg:px-16 rounded-lg py-4">
@@ -23,7 +23,7 @@ const Banner = () => {
               <h2 className="text-lg my-3">
                 Want a secure, private space for your<br /> technical knowledge?
               </h2>
-              <button className="bg-blue-400 p-3 px-10 mt-2 rounded text-white">Discover Teams</button>
+              <button className="btn bg-blue-400 hover:bg-blue-500 p-3 px-10 mt-2 rounded text-white">Discover Teams</button>
             </div>
           </div> 
           <div className="my-10 mb-14">

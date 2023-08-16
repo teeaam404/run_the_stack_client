@@ -17,7 +17,7 @@ const Carousel = () => {
     <div className="lg:mx-44">
       <Container>
         <div className="my-10">
-          <h2 className="text-center text-2xl font-bold text-gray-500">Thousands of organizations around the globe use Stack Overflow for Teams</h2>
+          <h2 className="text-center text-3xl font-bold text-gray-500">Thousands of organizations around the globe use Stack Overflow for Teams</h2>
         </div>
         <div className="mx-auto my-auto mb-5">
           <Marquee>
